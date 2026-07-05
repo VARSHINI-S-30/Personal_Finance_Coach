@@ -1,0 +1,420 @@
+/* ==========================================
+   Google Font
+========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* ==========================================
+   Main Background
+========================================== */
+
+.stApp{
+    background:#F7F8FC;
+}
+
+/* ==========================================
+   Header
+========================================== */
+
+h1{
+    color:#1E3A8A;
+    font-weight:800;
+}
+
+h2,h3{
+    color:#1F2937;
+    font-weight:700;
+}
+
+p{
+    color:#374151;
+}
+
+/* ==========================================
+   Sidebar
+========================================== */
+
+[data-testid="stSidebar"]{
+    background:#FFFFFF;
+    border-right:1px solid #E5E7EB;
+}
+
+[data-testid="stSidebar"] h1{
+    color:#2563EB;
+}
+
+[data-testid="stSidebar"] .stMarkdown{
+    color:#374151;
+}
+
+[data-testid="stSidebar"] hr{
+    border-color:#E5E7EB;
+}
+
+/* ==========================================
+   Buttons
+========================================== */
+
+.stButton>button{
+
+    width:100%;
+
+    border-radius:12px;
+
+    border:none;
+
+    background:#2563EB;
+
+    color:white;
+
+    font-weight:600;
+
+    padding:10px;
+
+    transition:0.25s;
+}
+
+.stButton>button:hover{
+
+    background:#1D4ED8;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 20px rgba(37,99,235,.25);
+
+}
+
+/* ==========================================
+   Chat Input
+========================================== */
+
+.stChatInput textarea{
+
+    border-radius:15px;
+
+    border:1px solid #D1D5DB;
+
+    background:white;
+
+}
+
+.stChatInput textarea:focus{
+
+    border-color:#2563EB;
+
+}
+
+/* ==========================================
+   User Chat Bubble
+========================================== */
+
+[data-testid="stChatMessage"]:has(div[data-testid="chatAvatarIcon-user"]){
+
+    background:#DBEAFE;
+
+    border-radius:18px;
+
+    padding:15px;
+
+    margin-bottom:12px;
+
+    border-left:5px solid #2563EB;
+
+}
+
+/* ==========================================
+   Assistant Bubble
+========================================== */
+
+[data-testid="stChatMessage"]:has(div[data-testid="chatAvatarIcon-assistant"]){
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:15px;
+
+    margin-bottom:18px;
+
+    border:1px solid #E5E7EB;
+
+    box-shadow:0 3px 12px rgba(0,0,0,.06);
+
+}
+
+/* ==========================================
+   Metrics
+========================================== */
+
+[data-testid="metric-container"]{
+
+    background:white;
+
+    border-radius:16px;
+
+    padding:20px;
+
+    border:1px solid #E5E7EB;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.05);
+
+}
+
+/* ==========================================
+   Success Box
+========================================== */
+
+.stSuccess{
+
+    border-radius:14px;
+
+}
+
+/* ==========================================
+   Info Box
+========================================== */
+
+.stInfo{
+
+    border-radius:14px;
+
+}
+
+/* ==========================================
+   Warning
+========================================== */
+
+.stWarning{
+
+    border-radius:14px;
+
+}
+
+/* ==========================================
+   Error
+========================================== */
+
+.stError{
+
+    border-radius:14px;
+
+}
+
+/* ==========================================
+   Expanders
+========================================== */
+
+.streamlit-expanderHeader{
+
+    font-weight:600;
+
+    color:#2563EB;
+
+}
+
+.streamlit-expanderContent{
+
+    background:white;
+
+    border-radius:12px;
+
+}
+
+/* ==========================================
+   Download Button
+========================================== */
+
+.stDownloadButton button{
+
+    background:#16A34A;
+
+    color:white;
+
+    border:none;
+
+    border-radius:12px;
+
+    font-weight:600;
+
+}
+
+.stDownloadButton button:hover{
+
+    background:#15803D;
+
+}
+
+/* ==========================================
+   Tables
+========================================== */
+
+table{
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+}
+
+/* ==========================================
+   Plotly Charts Container
+========================================== */
+
+.js-plotly-plot{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:15px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.06);
+
+}
+
+/* ==========================================
+   Horizontal Rule
+========================================== */
+
+hr{
+
+    border-color:#E5E7EB;
+
+}
+
+/* ==========================================
+   Footer
+========================================== */
+
+footer{
+
+    visibility:hidden;
+
+}
+
+/* ==========================================
+   Hide Streamlit Branding
+========================================== */
+
+#MainMenu{
+
+    visibility:hidden;
+
+}
+
+header{
+
+    visibility:hidden;
+
+}
+
+/* ==========================================
+   Nice Scrollbar
+========================================== */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#CBD5E1;
+
+    border-radius:10px;
+
+}
+
+::-webkit-scrollbar-thumb:hover{
+
+    background:#94A3B8;
+
+}
+
+/* ==========================================
+   Spinner
+========================================== */
+
+.stSpinner>div{
+
+    border-top-color:#2563EB;
+
+}
+
+/* ==========================================
+   PDF Card
+========================================== */
+
+.pdf-card{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:16px;
+
+    border:1px solid #E5E7EB;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.06);
+
+    margin-top:20px;
+
+}
+
+/* ==========================================
+   Chart Card
+========================================== */
+
+.chart-card{
+
+    background:white;
+
+    padding:18px;
+
+    border-radius:16px;
+
+    border:1px solid #E5E7EB;
+
+    margin-top:18px;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.05);
+
+}
+
+/* ==========================================
+   Assistant Generated Content Animation
+========================================== */
+
+.chart-card,
+.pdf-card{
+
+    animation:fadeIn .4s ease-in-out;
+
+}
+
+@keyframes fadeIn{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(15px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
