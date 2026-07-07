@@ -206,5 +206,29 @@
     {
         "role": "assistant",
         "content": "**Financial Summary**\n\n- **Monthly Income:** \u20b990,000  \n- **Monthly Expenses:** \u20b965,000  \n- **Monthly Savings:** \u20b925,000  \n- **Savings Rate:** 27.78\u202f% of income  \n\nThis means you\u2019re saving about 28\u202f% of what you earn each month. Great job!"
+    },
+    {
+        "role": "user",
+        "content": "My monthly income is 70000 expenses are 45000 Analyze my budget"
+    },
+    {
+        "role": "assistant",
+        "content": "OpenRouter Error (429)\n\n{\n  \"error\": {\n    \"message\": \"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\n    \"code\": 429,\n    \"metadata\": {\n      \"headers\": {\n        \"X-RateLimit-Limit\": \"50\",\n        \"X-RateLimit-Remaining\": \"0\",\n        \"X-RateLimit-Reset\": \"1783468800000\"\n      },\n      \"provider_name\": null,\n      \"previous_errors\": [\n        {\n          \"code\": 429,\n          \"message\": \"Provider returned error\",\n          \"provider_name\": \"OpenInference\",\n          \"raw\": \"openai/gpt-oss-20b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\"\n        }\n      ]\n    }\n  },\n  \"user_id\": \"user_3FZPIZaVUl6IKRnN0FYYBBRGmz6\"\n}"
+    },
+    {
+        "role": "user",
+        "content": "My monthly income is 70000 expenses are 45000 Analyze my budget"
+    },
+    {
+        "role": "assistant",
+        "content": "OpenRouter Error (429)\n\n{\n  \"error\": {\n    \"message\": \"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\n    \"code\": 429,\n    \"metadata\": {\n      \"headers\": {\n        \"X-RateLimit-Limit\": \"50\",\n        \"X-RateLimit-Remaining\": \"0\",\n        \"X-RateLimit-Reset\": \"1783468800000\"\n      },\n      \"provider_name\": null,\n      \"previous_errors\": [\n        {\n          \"code\": 429,\n          \"message\": \"Provider returned error\",\n          \"provider_name\": \"OpenInference\",\n          \"raw\": \"openai/gpt-oss-20b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\"\n        }\n      ]\n    }\n  },\n  \"user_id\": \"user_3FZPIZaVUl6IKRnN0FYYBBRGmz6\"\n}"
+    },
+    {
+        "role": "user",
+        "content": "My monthly income is 70000 expenses are 45000 Analyze my budget"
+    },
+    {
+        "role": "assistant",
+        "content": "OpenRouter Error (429)\n\n{\n  \"error\": {\n    \"message\": \"Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day\",\n    \"code\": 429,\n    \"metadata\": {\n      \"headers\": {\n        \"X-RateLimit-Limit\": \"50\",\n        \"X-RateLimit-Remaining\": \"0\",\n        \"X-RateLimit-Reset\": \"1783468800000\"\n      },\n      \"provider_name\": null,\n      \"previous_errors\": [\n        {\n          \"code\": 429,\n          \"message\": \"Provider returned error\",\n          \"provider_name\": \"OpenInference\",\n          \"raw\": \"openai/gpt-oss-20b:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations\"\n        }\n      ]\n    }\n  },\n  \"user_id\": \"user_3FZPIZaVUl6IKRnN0FYYBBRGmz6\"\n}"
     }
 ]
